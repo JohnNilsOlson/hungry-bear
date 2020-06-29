@@ -13,9 +13,9 @@ export class HungryBear {
 
   didYouGetEaten() {
     if (this.foodLevel > 0) {
-      return false;
+      return this.eaten = false;
     } else {
-      return true;
+      return this.eaten = true;
     }
   }
 
